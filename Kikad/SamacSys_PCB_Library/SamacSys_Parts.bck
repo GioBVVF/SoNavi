@@ -1,0 +1,153 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0031.8201
+D Fuse Holder FUSE-HOLDER OGN
+F https://componentsearchengine.com/Datasheets/3/0031.8201.pdf
+$ENDCMP
+#
+$CMP 172286-1202
+D Ultra-Fit 3.5mm PCB header,gold pins, 2P Molex Ultra-Fit Series, Series Number 172286, 3.5mm Pitch 2 Way 1 Row Shrouded Vertical PCB Header, Through Hole
+F http://uk.rs-online.com/web/p/products/8951830
+$ENDCMP
+#
+$CMP 172286-1203
+D Ultra-Fit 3.5mm PCB header,gold pins, 3P Molex Ultra-Fit Series, Series Number 172286, 3.5mm Pitch 3 Way 1 Row Shrouded Vertical PCB Header, Through Hole
+F http://uk.rs-online.com/web/p/products/8951842
+$ENDCMP
+#
+$CMP 172286-1206
+D Molex 172286 Series, 3.5mm Pitch 6 Way 1 Row Vertical PCB Header, Solder Termination, 12A
+F https://www.molex.com/webdocs/datasheets/pdf/en-us/1722861206_PCB_HEADERS.pdf
+$ENDCMP
+#
+$CMP 2-644861-2
+D MTA-100 shrouded header, PCB, 2.54mm,2P TE Connectivity MTA-100 Series, 2.54mm Pitch 2 Way 1 Row Straight PCB Header, Solder Termination, 5A
+F http://uk.rs-online.com/web/p/products/7926609
+$ENDCMP
+#
+$CMP 2-644861-3
+D MTA-100 shrouded header,PCB, 2.54mm, 3P TE Connectivity MTA-100 Series, 2.54mm Pitch 3 Way 1 Row Straight PCB Header, Solder Termination, 5A
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F644861%7FN%7Fpdf%7FEnglish%7FENG_CD_644861_N_baseFilename.pdf%7F2-644861-3
+$ENDCMP
+#
+$CMP 2-644861-6
+D MTA-100 shrouded header, PCB, 2.54mm, 6P TE Connectivity MTA-100 Series, 2.54mm Pitch 6 Way 1 Row Straight PCB Header, Solder Termination, 5A
+F http://uk.rs-online.com/web/p/products/7926697
+$ENDCMP
+#
+$CMP 2-644861-8
+D Header 8 way pin 2.54mm MTA-100
+F http://uk.rs-online.com/web/p/products/1644092
+$ENDCMP
+#
+$CMP 3296W-1-103LF
+D Bourns 3296W Series 25-Turn Through Hole Cermet Trimmer Resistor with Pin Terminations, 10000???? ????10% 1/2W ????100ppm/????C
+F http://uk.rs-online.com/web/p/products/1673377
+$ENDCMP
+#
+$CMP 3362P-1-103LF
+D 3362P top adj cermet trimmer 10K 6mm Bourns 3362P Series Through Hole Cermet Trimmer Resistor with Pin Terminations, 10k 10% 0.5W 100ppm/C Top Adjust
+F http://uk.rs-online.com/web/p/products/1673253
+$ENDCMP
+#
+$CMP 42375-0002
+D KK 254 2.54mm breakaway PCB header, 2P Molex 2.54mm 2 Way 1 Row Vertical Through Hole Male Pin Connector
+F http://uk.rs-online.com/web/p/products/8967620
+$ENDCMP
+#
+$CMP 52601-G10-8LF
+D FCI,52601-G10-8LF,Conn,Rect FCI,52601-G10-8LF,Conn,Rect
+F http://uk.rs-online.com/web/p/products/8599895
+$ENDCMP
+#
+$CMP 6N135
+D Optocoupler 1MBd Transistor, Base PDIP8 Vishay 6N135 DC Input Phototransistor Output Optocoupler, Through Hole, 8-Pin DIP
+F http://uk.rs-online.com/web/p/products/1451701
+$ENDCMP
+#
+$CMP 6N135-L
+D Lite-On 6N135-L DC Input Photologic Output Optocoupler, Through Hole, 8-Pin DIP
+F http://uk.rs-online.com/web/p/products/6912316P
+$ENDCMP
+#
+$CMP 70543-0001
+D 2.54mm,Cgrid,header,shrouded,vert,2w Molex SL Series, Series Number 70543, 2.54mm Pitch 2 Way 1 Row Shrouded Straight PCB Header, Through Hole
+F http://uk.rs-online.com/web/p/products/1671929
+$ENDCMP
+#
+$CMP 70543-0002
+D 2.54mm,Cgrid,header,shrouded,vert,3w Molex SL Series, Series Number 70543, 2.54mm Pitch 3 Way 1 Row Straight PCB Header, Solder Termination, 3A
+F http://uk.rs-online.com/web/p/products/6792477
+$ENDCMP
+#
+$CMP 70543-0005
+D Molex SL Series, Series Number 70543, 2.54mm Pitch 6 Way 1 Row Straight PCB Header, Solder Termination, 3A
+F http://www.molex.com/molex/products/datasheet.jsp?part=active/0705430005_PCB_HEADERS.xml
+$ENDCMP
+#
+$CMP 70543-0006
+D Molex SL 70543, 2.54mm Pitch, 7 Way, 1 Row Shrouded, Straight PCB Header, Through Hole, Solder Termination
+F http://www.molex.com/pdm_docs/sd/705430006_sd.pdf
+$ENDCMP
+#
+$CMP 70543-0007
+D Molex SL Series, Series Number 70543, 2.54mm Pitch 8 Way 1 Row Straight PCB Header, Solder Termination, 3A
+F https://www.molex.com/webdocs/datasheets/pdf/en-us/0705430007_PCB_HEADERS.pdf
+$ENDCMP
+#
+$CMP 852-80-016-10-001101
+D Preci-Dip 1.27mm 16 Way 2 Row Straight Through Hole Male Connector Strip
+F http://uk.rs-online.com/web/p/products/7020284P
+$ENDCMP
+#
+$CMP AR_08_HZL-TT
+D 8w IC socket machined contacts ASSMANN WSW 2.54mm Pitch Vertical 8 Way, Through Hole Turned Pin Open Frame IC Dip Socket, 3A
+F http://uk.rs-online.com/web/p/products/6742479P
+$ENDCMP
+#
+$CMP AYA01F12-L
+D Artesyn Embedded Technologies Through Hole 2W Isolated DC-DC Converter, Vin 9  18 V dc, I/O isolation 1.5kV dc
+F https://www.artesyn.com/power/assets/aya3w_03aug2016_1472662476.pdf
+$ENDCMP
+#
+$CMP A_06-LC-TT
+D ASSMANN WSW 2.54mm Pitch Vertical 6 Way, Through Hole Stamped pin Open Frame IC Dip Socket, 1A
+F http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf
+$ENDCMP
+#
+$CMP A_08-LC-TT
+D 8w IC socket stamped contacts ASSMANN WSW 2.54mm Pitch Vertical 8 Way, Through Hole Stamped Pin Open Frame IC Dip Socket, 1A
+F http://uk.rs-online.com/web/p/products/6742435P
+$ENDCMP
+#
+$CMP NDS-02-V
+D 2 Way Through Hole DIP Switch SPST, Raised Actuator
+F http://uk.rs-online.com/web/p/products/8772116
+$ENDCMP
+#
+$CMP NE555D
+D NE555DG4, Timer, 4.5 To 16V, 8-Pin SOIC-8
+F Http:  //www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP REM1-3.33.3S
+D Recom REM1 1W Isolated DC-DC Converter Through Hole, Vin 2.97  3.63 V dc, Vout 3.3V dc
+F https://www.recom-power.com/pdf/Medline-DC-DC/REM1.pdf
+$ENDCMP
+#
+$CMP TSR_1-2433
+D Non-Isolated DC/DC Converters
+F http://uk.rs-online.com/web/p/products/1247655
+$ENDCMP
+#
+$CMP TSR_1-2450
+D Switching Regulator,6.5-32Vin,5Vout 1A Switching Regulator, 6.5 ??? 36V dc Input, 5V Output, 1A
+F http://uk.rs-online.com/web/p/products/6664379P
+$ENDCMP
+#
+$CMP TSR_1-2490
+D TRACOPOWER Switching Regulator, 12  36V dc Input, 9V dc Output, 1A
+F http://uk.rs-online.com/web/p/products/6664376P
+$ENDCMP
+#
+#End Doc Library

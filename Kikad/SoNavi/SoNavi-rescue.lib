@@ -1,0 +1,270 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# +12V-SoNavi-rescue
+#
+DEF +12V-SoNavi-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+12V-SoNavi-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +5V-SoNavi-rescue
+#
+DEF +5V-SoNavi-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+5V-SoNavi-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# 1N4007-Diode
+#
+DEF 1N4007-Diode D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "1N4007-Diode" 0 -100 50 H V C CNN
+F2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" 0 -175 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ D*DO?41*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 70543-0001-SoNavi-rescue
+#
+DEF 70543-0001-SoNavi-rescue J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "70543-0001-SoNavi-rescue" 650 200 50 H V L CNN
+F2 "SHDR2W97P0X254_1X2_737X660X1194P" 650 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/1671929" 650 0 50 H I L CNN
+F4 "2.54mm,Cgrid,header,shrouded,vert,2w Molex SL Series, Series Number 70543, 2.54mm Pitch 2 Way 1 Row Shrouded Straight PCB Header, Through Hole" 650 -100 50 H I L CNN "Description"
+F5 "11.94" 650 -200 50 H I L CNN "Height"
+F6 "1671929" 650 -300 50 H I L CNN "RS Part Number"
+F7 "Molex" 650 -400 50 H I L CNN "Manufacturer_Name"
+F8 "70543-0001" 650 -500 50 H I L CNN "Manufacturer_Part_Number"
+F9 "70190953" 650 -600 50 H I L CNN "Allied_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 0 -100 200 R 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# BC817-Transistor_BJT
+#
+DEF BC817-Transistor_BJT Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "BC817-Transistor_BJT" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X B 1 -200 0 225 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C-SoNavi-rescue
+#
+DEF C-SoNavi-rescue C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "C-SoNavi-rescue" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_01x04-Connector_Generic
+#
+DEF Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Conn_01x04-Connector_Generic" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DB9_Female-SoNavi-rescue
+#
+DEF DB9_Female-SoNavi-rescue J 0 40 Y N 1 F N
+F0 "J" 0 550 50 H V C CNN
+F1 "DB9_Female-SoNavi-rescue" 0 -575 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ DB*F*
+$ENDFPLIST
+DRAW
+C -70 -400 30 0 1 0 N
+C -70 -200 30 0 1 0 N
+C -70 0 30 0 1 0 N
+C -70 200 30 0 1 0 N
+C -70 400 30 0 1 0 N
+C 50 -300 30 0 1 0 N
+C 50 -100 30 0 1 0 N
+C 50 100 30 0 1 0 N
+C 50 300 30 0 1 0 N
+P 2 0 1 0 -150 -400 -100 -400 N
+P 2 0 1 0 -150 -300 20 -300 N
+P 2 0 1 0 -150 -200 -100 -200 N
+P 2 0 1 0 -150 -100 20 -100 N
+P 2 0 1 0 -150 0 -100 0 N
+P 2 0 1 0 -150 100 20 100 N
+P 2 0 1 0 -150 200 -100 200 N
+P 2 0 1 0 -150 300 20 300 N
+P 2 0 1 0 -150 400 -100 400 N
+P 5 0 1 10 -150 525 -150 -525 150 -375 150 375 -150 525 f
+X 1 1 -300 400 150 R 50 50 1 1 P
+X 2 2 -300 200 150 R 50 50 1 1 P
+X 3 3 -300 0 150 R 50 50 1 1 P
+X 4 4 -300 -200 150 R 50 50 1 1 P
+X 5 5 -300 -400 150 R 50 50 1 1 P
+X 6 6 -300 300 150 R 50 50 1 1 P
+X 7 7 -300 100 150 R 50 50 1 1 P
+X 8 8 -300 -100 150 R 50 50 1 1 P
+X 9 9 -300 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# D_Zener-SoNavi-rescue
+#
+DEF D_Zener-SoNavi-rescue D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "D_Zener-SoNavi-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fuse_Small-Device
+#
+DEF Fuse_Small-Device F 0 10 N N 1 F N
+F0 "F" 0 -60 50 H V C CNN
+F1 "Fuse_Small-Device" 0 60 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SM*
+$ENDFPLIST
+DRAW
+S -50 20 50 -20 0 1 0 N
+P 2 0 1 0 -50 0 50 0 N
+X ~ 1 -100 0 50 R 50 50 1 1 P
+X ~ 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND-SoNavi-rescue
+#
+DEF GND-SoNavi-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-SoNavi-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# L7805-SoNavi-rescue
+#
+DEF L7805-SoNavi-rescue U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "L7805-SoNavi-rescue" 0 125 50 H V L CNN
+F2 "" 25 -150 50 H I L CIN
+F3 "" 0 -50 50 H I C CNN
+$FPLIST
+ TO?252*
+ TO?263*
+ TO?220*
+$ENDFPLIST
+DRAW
+S -200 75 200 -200 0 1 10 f
+X IN 1 -300 0 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X OUT 3 300 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# R-SoNavi-rescue
+#
+DEF R-SoNavi-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R-SoNavi-rescue" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
